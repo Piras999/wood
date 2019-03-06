@@ -1,0 +1,74 @@
+<head><link href="app.css" rel="stylesheet"></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Conflict: Multiple assets emit to the same filename about.html:
+  Error: Conflict: Multiple assets emit to the same filename about.html
+  
+  - compiler.js:79 childCompiler.runAsChild
+    [woodcrafting]/[html-webpack-plugin]/lib/compiler.js:79:16
+  
+  - Compiler.js:296 compile
+    [woodcrafting]/[webpack]/lib/Compiler.js:296:11
+  
+  - Compiler.js:552 hooks.afterCompile.callAsync.err
+    [woodcrafting]/[webpack]/lib/Compiler.js:552:14
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [woodcrafting]/[tapable]/lib/Hook.js:154:20
+  
+  - Compiler.js:549 compilation.seal.err
+    [woodcrafting]/[webpack]/lib/Compiler.js:549:30
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [woodcrafting]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1323 hooks.optimizeAssets.callAsync.err
+    [woodcrafting]/[webpack]/lib/Compilation.js:1323:35
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [woodcrafting]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1314 hooks.optimizeChunkAssets.callAsync.err
+    [woodcrafting]/[webpack]/lib/Compilation.js:1314:32
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [woodcrafting]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1309 hooks.additionalAssets.callAsync.err
+    [woodcrafting]/[webpack]/lib/Compilation.js:1309:36
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [woodcrafting]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1305 hooks.optimizeTree.callAsync.err
+    [woodcrafting]/[webpack]/lib/Compilation.js:1305:32
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [woodcrafting]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1242 Compilation.seal
+    [woodcrafting]/[webpack]/lib/Compilation.js:1242:27
+  
+  - Compiler.js:546 hooks.make.callAsync.err
+    [woodcrafting]/[webpack]/lib/Compiler.js:546:17
+  
+  
+  - Compilation.js:1093 _addModuleChain
+    [woodcrafting]/[webpack]/lib/Compilation.js:1093:12
+  
+  - Compilation.js:1005 processModuleDependencies.err
+    [woodcrafting]/[webpack]/lib/Compilation.js:1005:9
+  
+  - next_tick.js:131 _combinedTickCallback
+    internal/process/next_tick.js:131:7
+  
+  - next_tick.js:180 process._tickCallback
+    internal/process/next_tick.js:180:9
+  
+</pre><script type="text/javascript" src="about.out.js"></script>

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: bellfort_rough_demoregular;
+    src: url('../fonts/bellfortroughdemo-webfont.woff2') format('woff2'),
+         url('../fonts/bellfortroughdemo-webfont.woff') format('woff');
+  }
+
+
+@import "./visible.scss";
+@import "./header.scss";
+@import "./hamburgerMenu.scss";
+@import "./menuCarousel.scss";
+@import "./section_one.scss";
+@import "./footer.scss";
+@import "./about.scss";
+
+//simple css reset
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    ol, ul {
+        list-style: none;
+      }
+  }

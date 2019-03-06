@@ -1,0 +1,89 @@
+section{
+    width: 100vw;
+    height: 45vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main .nav, .main .nav1{
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 25%;
+}
+
+.main .img, .img1, .img2, .img3, .img4, .img5, .img6{
+    width: 15rem;
+    height: 15rem;
+    background-image: url("../img/section/1.jpg");
+    background-repeat: no-repeat;
+    // background-size: 148%;
+    // background-position: 60% 80%;
+    background-size: contain;
+    background-position: 50% 50%;
+    // box-shadow: 0px 0px 20px 1px white;
+}
+
+.main .img1{
+    background-image: url("../img/section/2.jpg");
+    // background-size: contain;
+    // background-position: 50% 50%;
+}
+
+.main .img2{
+    background-image: url("../img/section/3.jpg");
+}
+
+.main .img3{
+    background-image: url("../img/section/4.jpg");
+}
+
+.main .img4{
+    background-image: url("../img/section/5.jpg");
+}
+
+.main .img5{
+    background-image: url("../img/section/6.jpg");
+}
+
+.main .img6{
+    background-image: url("../img/section/7.jpg");
+}
+
+
+.main .product_description {
+    width: 437px;
+    text-align: center;
+    margin: 134px 0 0 0;
+}
+
+.main .product_description h1{
+    font-size: 37px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.main .product_description p{
+    padding: 13px;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.main .product_description button{
+    background-color: #29ba9f;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-size: 23px;
+    word-spacing: 3px;
+    height: 54px;
+    width: 262px;
+    padding: 3px 1px 2px 13px;
+    /*przycisk jest krzywy na prjekcie! paddingami zrobić!*/
+    font-family: ralewaythin, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
